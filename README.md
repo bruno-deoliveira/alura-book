@@ -23,7 +23,8 @@ Alura Book, uma plataforma de livros do grupo Alura. Curso de HTML e CSS: respon
 
 ## ⚙️ Funcionalidade: 
 Para o uso do carrosel foi usado um pligin [Swiperjs](https://swiperjs.com/) entre no site e click no botão “Get started”.
-"<script>
+```html
+<script>
         const swiper = new Swiper('.swiper', {
             speed: 400,
             spaceBetween: 100,
@@ -33,8 +34,8 @@ Para o uso do carrosel foi usado um pligin [Swiperjs](https://swiperjs.com/) ent
                 type: 'bullets',
             },
         });
-    </script>"
-
+</script>
+```
 
 ## 🔖 Layout
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/sSMbIqKaGBd66Y8roxTk2p/AluraBooks?node-id=37%3A94&t=XyYYCOZInphPAghg-0). É necessário ter conta no Figma para acessá-lo.
